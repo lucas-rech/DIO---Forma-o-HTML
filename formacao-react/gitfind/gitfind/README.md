@@ -1,8 +1,34 @@
-# React + Vite
+# GitFind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação web que permite consultar perfis do GitHub e listar os repositórios de cada usuário, tudo em uma única página. O projeto utiliza **JavaScript** e **React** para a interface e faz chamadas à [GitHub API](https://docs.github.com/en/rest) para obter os dados necessários.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
+
+- Pesquisar perfis do GitHub pelo nome de usuário.
+- Exibir informações do perfil:
+  - Avatar do usuário.
+  - Nome e bio.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React**: Biblioteca para construção da interface do usuário.
+- **JavaScript**: Linguagem de programação principal do projeto.
+- **Vite**: Build tool para inicializar o projeto 
+- **GitHub API**: Fonte dos dados.
+
+---
+
+## 📦 Como Rodar o Projeto
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/lucas-rech/DIO-Courses/tree/main/formacao-react/gitfind
+   cd gitfind
+   npm install
+   npm run dev
+

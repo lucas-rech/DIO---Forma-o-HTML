@@ -29,6 +29,14 @@ Uma aplicação web que permite consultar perfis do GitHub e listar os repositó
    ```bash
    git clone https://github.com/lucas-rech/DIO-Courses/tree/main/formacao-react/gitfind
    cd gitfind
-   npm install
-   npm run dev
 
+2. **Instale as dependências:**
+
+    ```bash
+    npm install
+    npm run dev
+
+3. **Execute o servidor:**
+
+    ```bash
+    http://localhost:5173/

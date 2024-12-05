@@ -20,7 +20,7 @@ function App() {
     if(newUser.name){
       const {avatar_url, name, bio, login} = newUser 
       setCurrentUser({avatar_url, name, bio, login})
-
+      
       const reposData = await fetch(`https://api.github.com/users/${user}/repos`)
       const newRepos = await reposData.json()
 

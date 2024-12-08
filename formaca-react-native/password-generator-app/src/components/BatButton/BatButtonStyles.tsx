@@ -33,5 +33,18 @@ export const styles = StyleSheet.create({
         marginTop: 20,
         backgroundColor: 'black',
         elevation: 3
+    },
+
+    copyMessage: {
+        width: 220,
+        position: 'absolute',
+        top: 300,
+        backgroundColor: 'gray',
+        fontSize: 15,
+        padding: 5,
+        borderRadius: 5,
+        opacity: 0.7,
+        color: '#ffffff',
+        textAlign: 'center'
     }
 });

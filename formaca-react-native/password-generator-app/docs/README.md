@@ -3,6 +3,8 @@
 
 **BatPassword** é um aplicativo mobile desenvolvido em **React Native** com **Expo**, que gera senhas aleatórias de forma simples e divertida, com uma temática inspirada no Batman. Ele possui uma interface minimalista com dois botões principais: um para **gerar senhas** e outro para **copiar a senha gerada** para a área de transferência.
 
+![BatPassword - Captura de Tela](./batpass-generator.png)
+
 ---
 
 ## 📱 **Funcionalidades**

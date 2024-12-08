@@ -55,8 +55,9 @@ O aplicativo é composto por uma única tela com os seguintes elementos:
 
 1. **Clone este repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/batpassword.git
-   cd batpassword
+   git clone https://github.com/lucas-rech/DIO-Courses.git
+   cd formaca-react-native
+   cd password-generator-app
    ```
 
 2. **Instale as dependências**:
